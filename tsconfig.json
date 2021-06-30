@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "dist",
+    "resolveJsonModule": true
+    //"baseUrl": ".",
+    //"paths": { "openzeppelin/*": ["node_modules/@openzeppelin/contracts/*"] },
+  },
+  "include": [
+    "hardhat.config.ts",
+    "test-params.ts",
+    "./deploy",
+    "./test",
+    "./scripts"
+  ],
+  "files":["./hardhat.config.ts"]
+}
