@@ -9,6 +9,7 @@ verify_ssl = true
 uniswap-python = "*"
 python-dotenv = "*"
 "discord.py" = "*"
+pycoingecko = "*"
 
 [requires]
 python_version = "3.9"
